@@ -1,3 +1,12 @@
+/* NAV BAR */
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-width: 15px;
+}
+
 /* TEXT BOXT INPUT */
 
 input#row-1 {
@@ -101,4 +110,19 @@ button#send-9 {
     background-color: transparent;
 }
 
-/* BUTTONS */
+/* MIDDLE, PAST PRESENT FUTURE */
+
+.past {
+    background-color: lightgray
+    color: lightgray;
+}
+
+.present {
+    background-color: red
+    color: lightgray;
+}
+
+.future {
+    background-color: lightgreen
+    color:lightgrey;
+}

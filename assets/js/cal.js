@@ -1,10 +1,20 @@
+// display the day at the top //
+
+// 
+
 // button click //
 var row = document.getElementById("row-1");
 row.onclick = function(){};
 
+// to create an interval for the clock 
+var interval = setInterval(hourUpdater, 15000);
+
 // local storage //
-var save_button = document.getElementById('Save')
-save_button.onclick = saveData;
+$('9hr .description').val(localStorage.getItem('9hr'));
+
+// refresh
+
+// loop
 
 function saveData() {
     var input = document.getElementById("saveServer");
